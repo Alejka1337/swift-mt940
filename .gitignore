@@ -1,0 +1,54 @@
+
+# .gitignore
+```gitignore
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+.env/
+
+# Poetry
+# (keep poetry.lock in repo — do NOT ignore it)
+.cache/pypoetry/
+.pypoetry/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Mypy / lint caches
+.mypy_cache/
+.ruff_cache/
+.pylint.d/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Optional local files
+local_settings.py
